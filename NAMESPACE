@@ -1,0 +1,12 @@
+exportPattern("^[[:alpha:]]+")
+exportMethods(
+    "plot",
+    "show" 
+)
+exportClasses(
+    "PoissonProcessScenario" 
+)
+import(methods)
+importFrom("graphics", "lines", "matplot")
+importFrom("stats", "integrate", "optimize", "quantile", "rexp",
+             "runif", "uniroot")
